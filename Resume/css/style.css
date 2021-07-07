@@ -18,6 +18,9 @@ body {
   margin: auto;
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
+.info-container-mb {
+  display: none;
+}
 .side-bar {
   background: #1e2939;
   width: 370px;
@@ -259,4 +262,65 @@ canvas {
   top: 0px;
   left: 0px;
   z-index: -1;
+}
+@media (max-width: 768px) {
+  body {
+    width: auto;
+  }
+  .side-bar {
+    position: relative;
+    background: #3f454f;
+    max-width: 335px;
+    margin: 0 auto;
+    max-height: 1350px;
+    top: 310px;
+  }
+  .wrapper {
+    background: white;
+    display: block;
+    position: relative;
+    height: 2990px;
+    max-width: 650px;
+    margin: auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  }
+  .info-container {
+    display: none;
+  }
+  .info-container-mb {
+    position: absolute;
+    display: block;
+    top: 70px;
+    z-index: 1;
+    text-align: center;
+    left: 10px;
+    right: 10px;
+    width: 300px;
+    margin: 0 auto 10px auto;
+  }
+  .profession-mb {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 0px;
+    margin-bottom: 23px;
+  }
+  .my-name-mb {
+    color: #505050;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  .my-photo {
+    width: 335px;
+  }
+  .about-me-container {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    position: relative;
+    top: 250px;
+  }
 }

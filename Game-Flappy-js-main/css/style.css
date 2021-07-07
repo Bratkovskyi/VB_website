@@ -76,5 +76,5 @@ progress::-moz-progress-bar {
 }
 #canvasGame {
   position: relative;
-  top: 120px;
+  top: 10px;
 }

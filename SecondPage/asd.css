@@ -1,5 +1,6 @@
 html,
 body {
+  margin: 0;
   height: 100%;
   width: 100%;
 }
@@ -7,18 +8,6 @@ body {
   background-image: url(https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg);
   backdrop-filter: blur 50px;
   background-size: cover;
-}
-
-.form-container {
-  padding-top: 100px;
-  padding-bottom: 40px;
-  max-width: 600px;
-  min-width: 200px;
-  position: relative;
-  left: 90px;
-  right: auto;
-  /* min-width: 700px;
-  min-height: 500px; */
 }
 
 .btn-form {
@@ -64,4 +53,15 @@ progress::-moz-progress-bar {
   width: 0%;
   display: block;
   height: inherit;
+}
+.form-container {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 600px;
+  min-width: 50px;
+  position: relative;
+  left: auto;
+  right: auto;
 }
