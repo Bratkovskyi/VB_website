@@ -1,0 +1,262 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fa;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  font-family: Montserrat;
+}
+.wrapper {
+  background: white;
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.side-bar {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.my-photo {
+  width: 370px;
+}
+.about-me-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.contacts {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.contacts-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #616974;
+}
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-right: 10px;
+}
+.tech-skill-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 20px;
+}
+.tech-skills-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.tech-skill-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+  margin-top: 1;
+}
+.tech-skill-text {
+  color: #d1d3d6;
+}
+.soft-skills-container {
+  margin-left: 41px;
+  margin-right: 40px;
+  margin-bottom: 55px;
+}
+.soft-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ff6b08;
+  margin-left: 15px;
+  margin-top: 1;
+}
+.soft-skills-text {
+  color: #d1d3d6;
+}
+.profession {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 23px;
+}
+.my-name {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+.description {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.info-container {
+  margin-bottom: 65px;
+}
+.about-me-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.projects-link {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.tech-name {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.dots {
+  color: #a8a8a8;
+}
+.projects-item {
+  font-weight: 700;
+  margin-left: 16px;
+}
+.project-container {
+  margin-bottom: 55px;
+}
+.professional-title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.professional-company {
+  color: #ff6b08;
+}
+.professional-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.profession-divided {
+  color: black;
+}
+.profession-duties {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+.profession-duties-item {
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.manager-container {
+  margin-bottom: 55px;
+}
+.Education-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 21px;
+}
+.University {
+  color: #ff6b08;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+.specialty {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+/* ----------Progress Bar Style------------- */
+progress {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  height: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: #fd0000;
+}
+progress::-webkit-progress-bar {
+  background: transparent;
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background: #fd0000;
+  border-radius: 5px;
+}
+progress::-moz-progress-bar {
+  background: #fd0000;
+  border-radius: 5px;
+}
+.progress-container {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  height: 5px;
+  display: block;
+}
+.progress-bar {
+  background: #fd0000;
+  width: 0%;
+  display: block;
+  height: inherit;
+}
+canvas {
+  position: fixed;
+  height: auto;
+  width: auto;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
