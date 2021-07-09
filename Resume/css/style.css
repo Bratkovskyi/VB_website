@@ -280,6 +280,7 @@ canvas {
     display: block;
     position: relative;
     height: 2990px;
+    min-width: 335px;
     max-width: 650px;
     margin: auto;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
